@@ -1,6 +1,6 @@
 export const setSearchText = (payload) => {
   return {
-    type: 'SET_SEARCH TEXT',
+    type: 'SET_SEARCH_TEXT',
     payload
   }
 };
@@ -14,6 +14,13 @@ export const toggleShowCompleted = () => {
 export const addTodo = (payload) => {
   return {
     type: 'ADD_TODO',
+    payload
+  }
+};
+
+export const addTodos = (payload) => {
+  return {
+    type: 'ADD_TODOS',
     payload
   }
 };
